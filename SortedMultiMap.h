@@ -1,4 +1,4 @@
-#pragma once
+    #pragma once
 //DO NOT INCLUDE SMMITERATOR
 
 //DO NOT CHANGE THIS PART
@@ -17,7 +17,36 @@ typedef bool(*Relation)(TKey, TKey);
 class SortedMultiMap {
 	friend class SMMIterator;
     private:
-		//TODO - Representation
+    struct Node{
+        int key;
+        int size, capacity;
+        TValue *values;
+        Node* next;
+
+        Node(); //Theta(1)
+    };
+    int dict_size; // number of elements
+    int capacity;
+    Node** dict;
+    Relation comp;
+
+    //hash function for the hash table
+    //Complexity: Theta(1)
+    int hash_function_1(int key) const {
+        return key% this->capacity;
+    }
+
+    //hash function for the hash table
+    //Complexity: Theta(1)
+    int hash_function_2(int key) const {
+        return (104729 - key % 104729);
+    }
+
+    //resize the hash table by doubling its capacity
+    void resize();  //Theta(n)
+
+    //resize the dynamic array in Node
+    static void resize(Node *node); //Theta(n), n is the number of links in the list
 
     public:
 

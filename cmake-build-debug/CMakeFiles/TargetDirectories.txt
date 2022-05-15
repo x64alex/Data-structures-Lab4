@@ -1,0 +1,3 @@
+/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug/CMakeFiles/Data_structures_Lab4.dir

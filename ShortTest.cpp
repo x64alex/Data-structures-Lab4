@@ -1,9 +1,10 @@
-#include <assert.h>
+ #include <assert.h>
 
 #include "SortedMultiMap.h"
 #include "SMMIterator.h"
 #include <exception>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -25,6 +26,7 @@ void testAll(){
     assert(smm.size() == 2);
     assert(!smm.isEmpty());
     vector<TValue> v= smm.search(1);
+    //std::cout<<v[1];
     assert(v.size()==2);
     v= smm.search(3);
     assert(v.size()==0);

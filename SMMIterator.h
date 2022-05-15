@@ -10,7 +10,11 @@ private:
 	const SortedMultiMap& map;
 	SMMIterator(const SortedMultiMap& map);
 
-	//TODO - Representation
+
+    TElem *elems;
+    int pos;
+
+    void sort(TElem *start, TElem *finish);
 
 public:
 	void first();
@@ -18,4 +22,5 @@ public:
 	bool valid() const;
    	TElem getCurrent() const;
 };
+
 
