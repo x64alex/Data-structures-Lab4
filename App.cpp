@@ -1,10 +1,16 @@
 #include <iostream>
-
-#include "ShortTest.h"
+#include "MultiMap.h"
 #include "ExtendedTest.h"
+#include "ShortTest.h"
+#include "MultiMapIterator.h"
 
-int main(){
-    testAll();
+using namespace std;
+
+
+int main() {
+
+
+	testAll();
 	testAllExtended();
-    std::cout<<"Finished SMM Tests!"<<std::endl;
+	cout << "End" << endl;
 }

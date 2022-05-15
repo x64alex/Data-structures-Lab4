@@ -1,44 +1,73 @@
- #include <assert.h>
-
-#include "SortedMultiMap.h"
-#include "SMMIterator.h"
-#include <exception>
+#include "ShortTest.h"
+#include "MultiMap.h"
+#include "MultiMapIterator.h"
+#include <assert.h>
 #include <vector>
-#include <iostream>
+#include <exception>
+#include<iostream>
 
-using namespace std;
+void testAll() {
+	MultiMap m;
+	m.add(1, 100);
+	m.add(2, 200);
+	m.add(3, 300);
+	m.add(1, 500);
+	m.add(2, 600);
+	m.add(4, 800);
 
-bool relation1(TKey cheie1, TKey cheie2) {
-	if (cheie1 <= cheie2) {
-		return true;
+	assert(m.size() == 6);
+
+	assert(m.remove(5, 600) == false);
+	assert(m.remove(1, 500) == true);
+
+	assert(m.size() == 5);
+
+    vector<TValue> v;
+	v=m.search(6);
+	assert(v.size()==0);
+
+	v=m.search(1);
+	assert(v.size()==1);
+
+	assert(m.isEmpty() == false);
+
+	MultiMapIterator im = m.iterator();
+	assert(im.valid() == true);
+	while (im.valid()) {
+		im.getCurrent();
+		im.next();
 	}
-	else {
-		return false;
-	}
-}
+	assert(im.valid() == false);
+	im.first();
+	assert(im.valid() == true);
 
-void testAll(){
-	SortedMultiMap smm = SortedMultiMap(relation1);
-	assert(smm.size() == 0);
-	assert(smm.isEmpty());
-    smm.add(1,2);
-    smm.add(1,3);
-    assert(smm.size() == 2);
-    assert(!smm.isEmpty());
-    vector<TValue> v= smm.search(1);
-    //std::cout<<v[1];
-    assert(v.size()==2);
-    v= smm.search(3);
-    assert(v.size()==0);
-    SMMIterator it = smm.iterator();
-    it.first();
-    while (it.valid()){
-    	TElem e = it.getCurrent();
-    	it.next();
+	//testing the new functionality
+	MultiMap m2;
+	MultiMapIterator m2i = m2.iterator();
+
+	//trying to remove the current pair from an empty table should throw an exception
+
+
+    m2.add(1, 1);
+    m2.add(1, 2);
+    m2.add(1, 3);
+    m2.add(1, 4);
+    m2i.first();
+    while(m2i.valid())
+    {
+        //cout<<m2i.getCurrent().first<<" "<<m2i.getCurrent().second<<endl;
+        try{
+            m2i.next();
+        }
+        catch(std::exception)
+        {
+
+        }
     }
-    assert(smm.remove(1, 2) == true);
-    assert(smm.remove(1, 3) == true);
-    assert(smm.remove(2, 1) == false);
-    assert(smm.isEmpty());
+    m2i.first();
+    m2i.first();
+    m2i.next();
+    m2i.next();
+    // we are now to the last element, we remove it and the iterator must become invalid
+    m2i.first();
 }
-

@@ -140,7 +140,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Data_structures_Lab4
+CMAKE_PROJECT_NAME:STATIC=Lab5MultiMap
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -205,13 +205,13 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Data_structures_Lab4_BINARY_DIR:STATIC=/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug
+Lab5MultiMap_BINARY_DIR:STATIC=/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug
 
 //Value Computed by CMake
-Data_structures_Lab4_IS_TOP_LEVEL:STATIC=ON
+Lab5MultiMap_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Data_structures_Lab4_SOURCE_DIR:STATIC=/Users/acantor/Documents/GitHub/Data-structures-Lab4
+Lab5MultiMap_SOURCE_DIR:STATIC=/Users/acantor/Documents/GitHub/Data-structures-Lab4
 
 
 ########################

@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Data_structures_Lab4"
+			"value" : "Lab5MultiMap"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1078,7 +1078,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Data_structures_Lab4_BINARY_DIR",
+			"name" : "Lab5MultiMap_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1090,7 +1090,7 @@
 			"value" : "/Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug"
 		},
 		{
-			"name" : "Data_structures_Lab4_IS_TOP_LEVEL",
+			"name" : "Lab5MultiMap_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1102,7 +1102,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Data_structures_Lab4_SOURCE_DIR",
+			"name" : "Lab5MultiMap_SOURCE_DIR",
 			"properties" : 
 			[
 				{

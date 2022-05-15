@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Data_structures_Lab4
+# Project: Lab5MultiMap
 # Configurations: Debug
 # =============================================================================
 
@@ -64,75 +64,75 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Data_structures_Lab4
+# Object build statements for EXECUTABLE target Lab5MultiMap
 
 
 #############################################
-# Order-only phony target for Data_structures_Lab4
+# Order-only phony target for Lab5MultiMap
 
-build cmake_object_order_depends_target_Data_structures_Lab4: phony || CMakeFiles/Data_structures_Lab4.dir
+build cmake_object_order_depends_target_Lab5MultiMap: phony || CMakeFiles/Lab5MultiMap.dir
 
-build CMakeFiles/Data_structures_Lab4.dir/App.cpp.o: CXX_COMPILER__Data_structures_Lab4_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/App.cpp || cmake_object_order_depends_target_Data_structures_Lab4
-  DEP_FILE = CMakeFiles/Data_structures_Lab4.dir/App.cpp.o.d
+build CMakeFiles/Lab5MultiMap.dir/App.cpp.o: CXX_COMPILER__Lab5MultiMap_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/App.cpp || cmake_object_order_depends_target_Lab5MultiMap
+  DEP_FILE = CMakeFiles/Lab5MultiMap.dir/App.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
   INCLUDES = -I/Users/acantor/Documents/GitHub/Data-structures-Lab4/.
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_structures_Lab4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_PDB = Data_structures_Lab4.pdb
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5MultiMap.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_PDB = Lab5MultiMap.pdb
 
-build CMakeFiles/Data_structures_Lab4.dir/ExtendedTest.cpp.o: CXX_COMPILER__Data_structures_Lab4_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/ExtendedTest.cpp || cmake_object_order_depends_target_Data_structures_Lab4
-  DEP_FILE = CMakeFiles/Data_structures_Lab4.dir/ExtendedTest.cpp.o.d
+build CMakeFiles/Lab5MultiMap.dir/ExtendedTest.cpp.o: CXX_COMPILER__Lab5MultiMap_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/ExtendedTest.cpp || cmake_object_order_depends_target_Lab5MultiMap
+  DEP_FILE = CMakeFiles/Lab5MultiMap.dir/ExtendedTest.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
   INCLUDES = -I/Users/acantor/Documents/GitHub/Data-structures-Lab4/.
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_structures_Lab4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_PDB = Data_structures_Lab4.pdb
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5MultiMap.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_PDB = Lab5MultiMap.pdb
 
-build CMakeFiles/Data_structures_Lab4.dir/ShortTest.cpp.o: CXX_COMPILER__Data_structures_Lab4_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/ShortTest.cpp || cmake_object_order_depends_target_Data_structures_Lab4
-  DEP_FILE = CMakeFiles/Data_structures_Lab4.dir/ShortTest.cpp.o.d
+build CMakeFiles/Lab5MultiMap.dir/MultiMap.cpp.o: CXX_COMPILER__Lab5MultiMap_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/MultiMap.cpp || cmake_object_order_depends_target_Lab5MultiMap
+  DEP_FILE = CMakeFiles/Lab5MultiMap.dir/MultiMap.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
   INCLUDES = -I/Users/acantor/Documents/GitHub/Data-structures-Lab4/.
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_structures_Lab4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_PDB = Data_structures_Lab4.pdb
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5MultiMap.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_PDB = Lab5MultiMap.pdb
 
-build CMakeFiles/Data_structures_Lab4.dir/SMMIterator.cpp.o: CXX_COMPILER__Data_structures_Lab4_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/SMMIterator.cpp || cmake_object_order_depends_target_Data_structures_Lab4
-  DEP_FILE = CMakeFiles/Data_structures_Lab4.dir/SMMIterator.cpp.o.d
+build CMakeFiles/Lab5MultiMap.dir/MultiMapIterator.cpp.o: CXX_COMPILER__Lab5MultiMap_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/MultiMapIterator.cpp || cmake_object_order_depends_target_Lab5MultiMap
+  DEP_FILE = CMakeFiles/Lab5MultiMap.dir/MultiMapIterator.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
   INCLUDES = -I/Users/acantor/Documents/GitHub/Data-structures-Lab4/.
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_structures_Lab4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_PDB = Data_structures_Lab4.pdb
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5MultiMap.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_PDB = Lab5MultiMap.pdb
 
-build CMakeFiles/Data_structures_Lab4.dir/SortedMultiMap.cpp.o: CXX_COMPILER__Data_structures_Lab4_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/SortedMultiMap.cpp || cmake_object_order_depends_target_Data_structures_Lab4
-  DEP_FILE = CMakeFiles/Data_structures_Lab4.dir/SortedMultiMap.cpp.o.d
+build CMakeFiles/Lab5MultiMap.dir/ShortTest.cpp.o: CXX_COMPILER__Lab5MultiMap_Debug /Users/acantor/Documents/GitHub/Data-structures-Lab4/ShortTest.cpp || cmake_object_order_depends_target_Lab5MultiMap
+  DEP_FILE = CMakeFiles/Lab5MultiMap.dir/ShortTest.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
   INCLUDES = -I/Users/acantor/Documents/GitHub/Data-structures-Lab4/.
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
-  OBJECT_FILE_DIR = CMakeFiles/Data_structures_Lab4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_PDB = Data_structures_Lab4.pdb
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5MultiMap.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_PDB = Lab5MultiMap.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Data_structures_Lab4
+# Link build statements for EXECUTABLE target Lab5MultiMap
 
 
 #############################################
-# Link the executable Data_structures_Lab4
+# Link the executable Lab5MultiMap
 
-build Data_structures_Lab4: CXX_EXECUTABLE_LINKER__Data_structures_Lab4_Debug CMakeFiles/Data_structures_Lab4.dir/App.cpp.o CMakeFiles/Data_structures_Lab4.dir/ExtendedTest.cpp.o CMakeFiles/Data_structures_Lab4.dir/ShortTest.cpp.o CMakeFiles/Data_structures_Lab4.dir/SMMIterator.cpp.o CMakeFiles/Data_structures_Lab4.dir/SortedMultiMap.cpp.o
+build Lab5MultiMap: CXX_EXECUTABLE_LINKER__Lab5MultiMap_Debug CMakeFiles/Lab5MultiMap.dir/App.cpp.o CMakeFiles/Lab5MultiMap.dir/ExtendedTest.cpp.o CMakeFiles/Lab5MultiMap.dir/MultiMap.cpp.o CMakeFiles/Lab5MultiMap.dir/MultiMapIterator.cpp.o CMakeFiles/Lab5MultiMap.dir/ShortTest.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1
-  OBJECT_DIR = CMakeFiles/Data_structures_Lab4.dir
+  OBJECT_DIR = CMakeFiles/Lab5MultiMap.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Data_structures_Lab4.dir/
-  TARGET_FILE = Data_structures_Lab4
-  TARGET_PDB = Data_structures_Lab4.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/Lab5MultiMap.dir/
+  TARGET_FILE = Lab5MultiMap
+  TARGET_PDB = Lab5MultiMap.pdb
 
 # =============================================================================
 # Target aliases.
@@ -145,7 +145,7 @@ build Data_structures_Lab4: CXX_EXECUTABLE_LINKER__Data_structures_Lab4_Debug CM
 #############################################
 # Folder: /Users/acantor/Documents/GitHub/Data-structures-Lab4/cmake-build-debug
 
-build all: phony Data_structures_Lab4
+build all: phony Lab5MultiMap
 
 # =============================================================================
 # Built-in targets

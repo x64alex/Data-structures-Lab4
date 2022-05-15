@@ -1,17 +1,17 @@
-cmake_minimum_required(VERSION 3.21)
-project(Data_structures_Lab4)
+cmake_minimum_required(VERSION 3.15)
+project(Lab5MultiMap)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Data_structures_Lab4
+add_executable(Lab5MultiMap
         App.cpp
         ExtendedTest.cpp
         ExtendedTest.h
+        MultiMap.cpp
+        MultiMap.h
+        MultiMapIterator.cpp
+        MultiMapIterator.h
         ShortTest.cpp
-        ShortTest.h
-        SMMIterator.cpp
-        SMMIterator.h
-        SortedMultiMap.cpp
-        SortedMultiMap.h)
+        ShortTest.h)
